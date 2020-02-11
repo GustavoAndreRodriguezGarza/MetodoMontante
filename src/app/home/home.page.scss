@@ -1,0 +1,66 @@
+ion-title{
+    --color: white;
+    font-size: 28pt;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ion-input{
+    --placeholder-color: white; 
+    --placeholder-opacity: 100;
+}
+
+ion-item{
+    --background: white;
+    --color: black;
+    --border-color: white;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0px 14px 25px rgba(182, 30, 30, 0.59);
+    --border-radius: 5px;
+    --highlight-color-focused: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+.divButton{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+.divButtonSmall{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+ion-button{
+    --background: white;
+    --opacity: 100;	
+    font-weight: 700;
+    color: rgb(206, 93, 127);;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ion-content{
+    --padding-bottom: 30pt;
+    --padding-end: 30pt;
+    --padding-start: 30pt;
+    --padding-top: 30pt;
+}
+.tipo{
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+
+.botones{
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    text-align: center;
+}
+.grid{
+    height: calc(70vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
